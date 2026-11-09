@@ -1,0 +1,254 @@
+Sketch Map , BaseId , SketchId , GenId , Generalization Type
+02_Route1.jpg,0,S0,g.0,No generalization
+02_Route1.jpg,6,S3,g.6,No generalization
+02_Route1.jpg,365,S13,g.365,No generalization
+02_Route1.jpg,363 364,S14,g.363.364,OmissionMerge
+02_Route1.jpg,371 372,S17,g.371.372,OmissionMerge
+02_Route1.jpg,388,S15,g.388,No generalization
+02_Route1.jpg,387,S16,g.387,No generalization
+02_Route1.jpg,35 373 374 375 43,S18,g.35.43.373.374.375,OmissionMerge
+02_Route1.jpg,Features missing in sketch map,"15,17,18,19,25,28,31,39,53,64,109,145,157,169,181,209,224,366,367,369,370,376,377,378,379,380,381,382,383,384,385,386,389,390,392,396,398,400,408,412,416,420,424,428,452,456,5,7,8,9,10,21,71,79,88,98,240,256,272,288,305,323,342,362"
+02_Route1.jpg,Features drawn extra in sketch map, S6,S8,S19,S20,S21,S22,S23
+   
+03_Route1.jpg,8,S3,g.8,No generalization
+03_Route1.jpg,9,S2,g.9,No generalization
+03_Route1.jpg,Features missing in sketch map,"15,17,18,19,25,28,31,35,39,43,53,64,109,145,157,169,181,209,224,363,364,365,366,367,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,392,396,398,400,408,412,416,420,424,428,452,456,0,5,6,7,10,21,71,79,88,98,240,256,272,288,305,323,342,362"
+03_Route1.jpg,Features drawn extra in sketch map, 
+   
+04_Route1.jpg,0,S0,g.0,No generalization
+04_Route1.jpg,25,S7,g.25,No generalization
+04_Route1.jpg,21,S1,g.21,No generalization
+04_Route1.jpg,6,S3,g.6,No generalization
+04_Route1.jpg,8,S2,g.8,No generalization
+04_Route1.jpg,7,S11,g.7,No generalization
+04_Route1.jpg,17,S10,g.17,No generalization
+04_Route1.jpg,28,S9,g.28,No generalization
+04_Route1.jpg,18,S8,g.18,No generalization
+04_Route1.jpg,19,S16,g.19,No generalization
+04_Route1.jpg,370,S19,g.370,No generalization
+04_Route1.jpg,371 372 373,S20,g.371.372.373,OmissionMerge
+04_Route1.jpg,379 374 39 378 43 375,S13,g.39.43.374.375.378.379,Abstraction to show existence
+04_Route1.jpg,Features missing in sketch map,"15,31,35,53,64,109,145,157,169,181,209,224,363,364,365,366,367,369,376,377,380,381,382,383,384,385,386,387,388,389,390,392,396,398,400,408,412,416,420,424,428,452,456,5,9,10,71,79,88,98,240,256,272,288,305,323,342,362"
+04_Route1.jpg,Features drawn extra in sketch map, S17,S18
+   
+05_Route1.jpg,0,S0,g.0,No generalization
+05_Route1.jpg,370,S6,g.370,No generalization
+05_Route1.jpg,364,S4,g.364,No generalization
+05_Route1.jpg,365,S5,g.365,No generalization
+05_Route1.jpg,371 372,S7,g.371.372,OmissionMerge
+05_Route1.jpg,387,S8,g.387,No generalization
+05_Route1.jpg,388,S9,g.388,No generalization
+05_Route1.jpg,373 374 39 380 43 375 15,S10,g.15.39.43.373.374.375.380,OmissionMerge
+05_Route1.jpg,Features missing in sketch map,"17,18,19,25,28,31,35,53,64,109,145,157,169,181,209,224,363,366,367,369,376,377,378,379,381,382,383,384,385,386,389,390,392,396,398,400,408,412,416,420,424,428,452,456,5,6,7,8,9,10,21,71,79,88,98,240,256,272,288,305,323,342,362"
+05_Route1.jpg,Features drawn extra in sketch map, 
+   
+06_Route1.jpg,0,S0,g.0,No generalization
+06_Route1.jpg,2,S1,g.2,No generalization
+06_Route1.jpg,39,S4,g.39,No generalization
+06_Route1.jpg,19 18 11 28,S5,g.11.18.19.28,No generalization
+06_Route1.jpg,Features missing in sketch map,"15,17,25,31,35,43,53,64,109,145,157,169,181,209,224,363,364,365,366,367,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,392,396,398,400,408,412,416,420,424,428,452,456,5,6,7,8,9,10,21,71,79,88,98,240,256,272,288,305,323,342,362"
+06_Route1.jpg,Features drawn extra in sketch map, 
+   
+07_Route1.jpg,0,S1,g.0,No generalization
+07_Route1.jpg,6,S5,g.6,No generalization
+07_Route1.jpg,8,S9,g.8,No generalization
+07_Route1.jpg,9,S7,g.9,No generalization
+07_Route1.jpg,64,S33,g.64,No generalization
+07_Route1.jpg,11,S27,g.11,No generalization
+07_Route1.jpg,364,S34,g.364,No generalization
+07_Route1.jpg,365 366,S35,g.365.366,OmissionMerge
+07_Route1.jpg,370,S37,g.370,No generalization
+07_Route1.jpg,371 372 373,S38,g.371.372.373,OmissionMerge
+07_Route1.jpg,375 374 39,S39,g.39.374.375,Abstraction to show existence
+07_Route1.jpg,43,S41,g.43,No generalization
+07_Route1.jpg,416 420 392 424 396 428 398 408 412,S11,g.392.396.398.408.412.416.420.424.428,OmissionMerge
+07_Route1.jpg,400,S36,g.400,No generalization
+07_Route1.jpg,382,S48,g.382,No generalization
+07_Route1.jpg,381,S47,g.381,No generalization
+07_Route1.jpg,380,S46,g.380,No generalization
+07_Route1.jpg,377 378 379,S45,g.377.378.379,OmissionMerge
+07_Route1.jpg,376,S43,g.376,No generalization
+07_Route1.jpg,28 53,S32,g.28.53,No generalization
+07_Route1.jpg,Features missing in sketch map,"15,17,18,19,25,31,35,109,145,157,169,181,209,224,363,367,369,383,384,385,386,387,388,389,390,452,456,5,7,10,21,71,79,88,98,240,256,272,288,305,323,342,362"
+07_Route1.jpg,Features drawn extra in sketch map, S40
+   
+08_Route1.jpg,0,S7,g.0,Collapse
+08_Route1.jpg,2 39 43 12 28 15,S8,g.2.12.15.28.39.43,No generalization
+08_Route1.jpg,9,S4,g.9,Collapse
+08_Route1.jpg,8,S3,g.8,Collapse
+08_Route1.jpg,6,S0,g.6,No generalization
+08_Route1.jpg,71,S6,g.71,Collapse
+08_Route1.jpg,79,S5,g.79,Collapse
+08_Route1.jpg,98,S1,g.98,Collapse
+08_Route1.jpg,88,S2,g.88,Collapse
+08_Route1.jpg,Features missing in sketch map,"17,18,19,25,31,35,53,64,109,145,157,169,181,209,224,363,364,365,366,367,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,392,396,398,400,408,412,416,420,424,428,452,456,5,7,10,21,240,256,272,288,305,323,342,362"
+08_Route1.jpg,Features drawn extra in sketch map, 
+   
+09_Route1.jpg,0,S0,g.0,Collapse
+09_Route1.jpg,10,S8,g.10,No generalization
+09_Route1.jpg,15,S11,g.15,No generalization
+09_Route1.jpg,6,S12,g.6,Collapse
+09_Route1.jpg,370,S16,g.370,No generalization
+09_Route1.jpg,364,S18,g.364,No generalization
+09_Route1.jpg,365,S19,g.365,No generalization
+09_Route1.jpg,371 372,S17,g.371.372,OmissionMerge
+09_Route1.jpg,387,S20,g.387,No generalization
+09_Route1.jpg,,S21,g.,
+09_Route1.jpg,373 374 375,S22,g.373.374.375,OmissionMerge
+09_Route1.jpg,35,S23,g.35,No generalization
+09_Route1.jpg,39,S9 S7,g.39,Abstraction to show existence - street stub
+09_Route1.jpg,43 109,S4,g.43.109,No generalization
+09_Route1.jpg,379,S14,g.379,No generalization
+09_Route1.jpg,380,S24,g.380,No generalization
+09_Route1.jpg,381,S13,g.381,No generalization
+09_Route1.jpg,Features missing in sketch map,"17,18,19,25,28,31,53,64,145,157,169,181,209,224,363,366,367,369,376,377,378,382,383,384,385,386,388,389,390,392,396,398,400,408,412,416,420,424,428,452,456,5,7,8,9,21,71,79,88,98,240,256,272,288,305,323,342,362"
+09_Route1.jpg,Features drawn extra in sketch map, 
+   
+10_Route1.jpg,0,S0,g.0,Collapse
+10_Route1.jpg,5,S1,g.5,No generalization
+10_Route1.jpg,6,S12,g.6,Collapse
+10_Route1.jpg,145,S7,g.145,No generalization
+10_Route1.jpg,181,S8,g.181,No generalization
+10_Route1.jpg,364,S13,g.364,No generalization
+10_Route1.jpg,365,S14,g.365,No generalization
+10_Route1.jpg,370,S15,g.370,No generalization
+10_Route1.jpg,371,S16,g.371,No generalization
+10_Route1.jpg,372 373 374 375,S9,g.372.373.374.375,OmissionMerge
+10_Route1.jpg,369,S19,g.369,No generalization
+10_Route1.jpg,367,S18,g.367,No generalization
+10_Route1.jpg,Features missing in sketch map,"15,17,18,19,25,28,31,35,39,43,53,64,109,157,169,209,224,363,366,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,392,396,398,400,408,412,416,420,424,428,452,456,7,8,9,10,21,71,79,88,98,240,256,272,288,305,323,342,362"
+10_Route1.jpg,Features drawn extra in sketch map, 
+   
+11_Route1.jpg,6,S13,g.6,No generalization
+11_Route1.jpg,7,S12,g.7,No generalization
+11_Route1.jpg,224 209,,g.209.224,
+11_Route1.jpg,0,S0,g.0,No generalization
+11_Route1.jpg,25,S17,g.25,No generalization
+11_Route1.jpg,10,S4,g.10,No generalization
+11_Route1.jpg,8,S5,g.8,No generalization
+11_Route1.jpg,9,S7,g.9,No generalization
+11_Route1.jpg,43,S20,g.43,No generalization
+11_Route1.jpg,109,S27,g.109,No generalization
+11_Route1.jpg,64,S26,g.64,No generalization
+11_Route1.jpg,15,S23,g.15,No generalization
+11_Route1.jpg,288,S9,g.288,No generalization
+11_Route1.jpg,272,S11,g.272,No generalization
+11_Route1.jpg,256,S8,g.256,No generalization
+11_Route1.jpg,240,S6,g.240,No generalization
+11_Route1.jpg,305,S1,g.305,No generalization
+11_Route1.jpg,370,S35,g.370,No generalization
+11_Route1.jpg,364,S31,g.364,No generalization
+11_Route1.jpg,365,S32,g.365,No generalization
+11_Route1.jpg,371,S36,g.371,No generalization
+11_Route1.jpg,369,S30,g.369,No generalization
+11_Route1.jpg,372,S37,g.372,No generalization
+11_Route1.jpg,388,S34,g.388,No generalization
+11_Route1.jpg,387,S33,g.387,No generalization
+11_Route1.jpg,373,S38,g.373,No generalization
+11_Route1.jpg,385 39 374 375,S19,g.39.374.375.385,OmissionMerge
+11_Route1.jpg,379,S28,g.379,No generalization
+11_Route1.jpg,380,S40,g.380,No generalization
+11_Route1.jpg,381,S29,g.381,No generalization
+11_Route1.jpg,Features missing in sketch map,"17,18,19,28,31,35,53,145,157,169,181,363,366,367,376,377,378,382,383,384,386,389,390,392,396,398,400,408,412,416,420,424,428,452,456,5,21,71,79,88,98,323,342,362"
+11_Route1.jpg,Features drawn extra in sketch map, S14,S2,S3
+   
+12_Route1.jpg,224 209,S0,g.209.224,Abstraction to show existence
+12_Route1.jpg,0,S1,g.0,No generalization
+12_Route1.jpg,71,S5,g.71,No generalization
+12_Route1.jpg,15,S10,g.15,No generalization
+12_Route1.jpg,7,S17,g.7,No generalization
+12_Route1.jpg,6,S16,g.6,No generalization
+12_Route1.jpg,323,S13,g.323,No generalization
+12_Route1.jpg,370,S22,g.370,No generalization
+12_Route1.jpg,364,S18,g.364,No generalization
+12_Route1.jpg,365,S19,g.365,No generalization
+12_Route1.jpg,371 372,S23,g.371.372,OmissionMerge
+12_Route1.jpg,387,S20,g.387,No generalization
+12_Route1.jpg,388,S21,g.388,No generalization
+12_Route1.jpg,373 374 375,S24,g.373.374.375,OmissionMerge
+12_Route1.jpg,35,S7,g.35,No generalization
+12_Route1.jpg,39,S25,g.39,No generalization
+12_Route1.jpg,379 43 380,S9,g.43.379.380,No generalization
+12_Route1.jpg,109,S27,g.109,No generalization
+12_Route1.jpg,381,S12,g.381,No generalization
+12_Route1.jpg,Features missing in sketch map,"17,18,19,25,28,31,53,64,145,157,169,181,363,366,367,369,376,377,378,382,383,384,385,386,389,390,392,396,398,400,408,412,416,420,424,428,452,456,5,8,9,10,21,79,88,98,240,256,272,288,305,342,362"
+12_Route1.jpg,Features drawn extra in sketch map, S28
+   
+13_Route1.jpg,6,S1,g.6,No generalization
+13_Route1.jpg,21,S2,g.21,No generalization
+13_Route1.jpg,0,S0,g.0,No generalization
+13_Route1.jpg,370,S13,g.370,No generalization
+13_Route1.jpg,388 365 389,S11,g.365.388.389,No generalization
+13_Route1.jpg,364,S12,g.364,No generalization
+13_Route1.jpg,387,S15,g.387,No generalization
+13_Route1.jpg,371 372,S14,g.371.372,OmissionMerge
+13_Route1.jpg,373 374 375 39 43,S17,g.39.43.373.374.375,OmissionMerge
+13_Route1.jpg,15,S19,g.15,No generalization
+13_Route1.jpg,381,S20,g.381,No generalization
+13_Route1.jpg,18 109,S9,g.18.109,No generalization
+13_Route1.jpg,379,S21,g.379,No generalization
+13_Route1.jpg,377 378,S22,g.377.378,OmissionMerge
+13_Route1.jpg,Features missing in sketch map,"17,19,25,28,31,35,53,64,145,157,169,181,209,224,363,366,367,369,376,380,382,383,384,385,386,390,392,396,398,400,408,412,416,420,424,428,452,456,5,7,8,9,10,71,79,88,98,240,256,272,288,305,323,342,362"
+13_Route1.jpg,Features drawn extra in sketch map, S23
+   
+14_Route1.jpg,7,S14,g.7,No generalization
+14_Route1.jpg,6,S0,g.6,No generalization
+14_Route1.jpg,10,S4,g.10,No generalization
+14_Route1.jpg,0,S2,g.0,No generalization
+14_Route1.jpg,71,S3,g.71,No generalization
+14_Route1.jpg,15,S11,g.15,No generalization
+14_Route1.jpg,342,S1,g.342,No generalization
+14_Route1.jpg,385 35 379 373 374 375 43 380,S8,g.35.43.373.374.375.379.380.385,OmissionMerge
+14_Route1.jpg,370,S19,g.370,No generalization
+14_Route1.jpg,371 372,S20,g.371.372,OmissionMerge
+14_Route1.jpg,365,S15,g.365,No generalization
+14_Route1.jpg,364,S16,g.364,No generalization
+14_Route1.jpg,388,S17,g.388,No generalization
+14_Route1.jpg,387,S18,g.387,No generalization
+14_Route1.jpg,381,S13,g.381,No generalization
+14_Route1.jpg,Features missing in sketch map,"17,18,19,25,28,31,39,53,64,109,145,157,169,181,209,224,363,366,367,369,376,377,378,382,383,384,386,389,390,392,396,398,400,408,412,416,420,424,428,452,456,5,8,9,21,79,88,98,240,256,272,288,305,323,362"
+14_Route1.jpg,Features drawn extra in sketch map, 
+   
+15_Route1.jpg,6,S1,g.6,No generalization
+15_Route1.jpg,0,S0,g.0,No generalization
+15_Route1.jpg,39,S5,g.39,No generalization
+15_Route1.jpg,364,S15,g.364,No generalization
+15_Route1.jpg,365,S16,g.365,No generalization
+15_Route1.jpg,371 372,S19,g.371.372,OmissionMerge
+15_Route1.jpg,387,S17,g.387,No generalization
+15_Route1.jpg,388,S18,g.388,No generalization
+15_Route1.jpg,373 374 375,S20,g.373.374.375,OmissionMerge
+15_Route1.jpg,43 35 109,S6,g.35.43.109,No generalization
+15_Route1.jpg,384 31 380 381 382 383,S11,g.31.380.381.382.383.384,OmissionMerge
+15_Route1.jpg,53 376 377 378 379,S9,g.53.376.377.378.379,OmissionMerge
+15_Route1.jpg,28 15,S13,g.15.28,Abstraction to show existence
+15_Route1.jpg,Features missing in sketch map,"17,18,19,25,64,145,157,169,181,209,224,363,366,367,369,370,385,386,389,390,392,396,398,400,408,412,416,420,424,428,452,456,5,7,8,9,10,21,71,79,88,98,240,256,272,288,305,323,342,362"
+15_Route1.jpg,Features drawn extra in sketch map, S10
+   
+16_Route1.jpg,7,S16,g.7,No generalization
+16_Route1.jpg,6,S17,g.6,No generalization
+16_Route1.jpg,0,S0,g.0,No generalization
+16_Route1.jpg,10,S15,g.10,No generalization
+16_Route1.jpg,15,S9,g.15,No generalization
+16_Route1.jpg,362,S13,g.362,No generalization
+16_Route1.jpg,364,S18,g.364,No generalization
+16_Route1.jpg,365,S19,g.365,No generalization
+16_Route1.jpg,371 372,S22,g.371.372,OmissionMerge
+16_Route1.jpg,387,S20,g.387,No generalization
+16_Route1.jpg,388,S21,g.388,No generalization
+16_Route1.jpg,385 35 373 374 375 43,S5,g.35.43.373.374.375.385,OmissionMerge
+16_Route1.jpg,386,S6,g.386,No generalization
+16_Route1.jpg,18,S24,g.18,No generalization
+16_Route1.jpg,379 380,S8,g.379.380,Abstraction to show existence
+16_Route1.jpg,381,S14,g.381,No generalization
+16_Route1.jpg,Features missing in sketch map,"17,19,25,28,31,39,53,64,109,145,157,169,181,209,224,363,366,367,369,370,376,377,378,382,383,384,389,390,392,396,398,400,408,412,416,420,424,428,452,456,5,8,9,21,71,79,88,98,240,256,272,288,305,323,342"
+16_Route1.jpg,Features drawn extra in sketch map, S4,S12
+   
+17_Route1.jpg,0,S0,g.0,No generalization
+17_Route1.jpg,1,S1,g.1,No generalization
+17_Route1.jpg,Features missing in sketch map,"15,17,18,19,25,28,31,35,39,43,53,64,109,145,157,169,181,209,224,363,364,365,366,367,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,392,396,398,400,408,412,416,420,424,428,452,456,5,6,7,8,9,10,21,71,79,88,98,240,256,272,288,305,323,342,362"
+17_Route1.jpg,Features drawn extra in sketch map, 
+   
+Screenshot 2026-09-21 194910.png,Features missing in sketch map,"15,17,18,19,25,28,31,35,39,43,53,64,109,145,157,169,181,209,224,363,364,365,366,367,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,392,396,398,400,408,412,416,420,424,428,452,456,0,5,6,7,8,9,10,21,71,79,88,98,240,256,272,288,305,323,342,362"
+Screenshot 2026-09-21 194910.png,Features drawn extra in sketch map, 
+   

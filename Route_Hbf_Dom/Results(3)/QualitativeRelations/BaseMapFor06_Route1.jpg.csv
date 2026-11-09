@@ -1,0 +1,61 @@
+Object 1 , Object 2, Relations
+== Streets-only ==, , 
+ ,streetTopology, 
+g.7,g.10,connected
+g.7,g.6,connected
+g.7,g.39,connected
+g.7,g.11.18.19.28,connected
+g.7,g.8,connected
+g.7,g.9,connected
+g.10,g.6,disconnected
+g.10,g.39,disconnected
+g.10,g.11.18.19.28,disconnected
+g.10,g.8,connected
+g.10,g.9,connected
+g.6,g.39,connected
+g.6,g.11.18.19.28,connected
+g.6,g.8,disconnected
+g.6,g.9,disconnected
+g.39,g.11.18.19.28,connected
+g.39,g.8,disconnected
+g.39,g.9,disconnected
+g.11.18.19.28,g.8,disconnected
+g.11.18.19.28,g.9,disconnected
+g.8,g.9,connected
+ ,opra, 
+g.7,g.10,half_right
+g.7,g.6,front_of
+g.7,g.39,right_of
+g.7,g.11.18.19.28,right_of
+g.7,g.8,sharp_right_of
+g.7,g.9,right_of
+g.10,g.6,nonAdjacent
+g.10,g.39,nonAdjacent
+g.10,g.11.18.19.28,nonAdjacent
+g.10,g.8,right_of
+g.10,g.9,right_of
+g.6,g.39,right_of
+g.6,g.11.18.19.28,right_of
+g.6,g.8,nonAdjacent
+g.6,g.9,nonAdjacent
+g.39,g.11.18.19.28,half_left
+g.39,g.8,nonAdjacent
+g.39,g.9,nonAdjacent
+g.11.18.19.28,g.8,nonAdjacent
+g.11.18.19.28,g.9,nonAdjacent
+g.8,g.9,front_of
+== Street-building ==, , 
+ ,leftRight, 
+g.7,g.0,nonAdjacent
+g.6,g.0,crosses
+ ,linearOrdering, 
+== Other ==, , 
+ ,RCC8, 
+ ,DE9IM : line_polygon, 
+g.7,g.0,disjoint
+g.10,g.0,disjoint
+g.6,g.0,touch
+g.39,g.0,disjoint
+g.11.18.19.28,g.0,disjoint
+g.8,g.0,disjoint
+g.9,g.0,disjoint
