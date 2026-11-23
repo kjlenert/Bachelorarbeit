@@ -24,7 +24,7 @@
       <Option name="dependencies"/>
       <Option name="id" type="QString" value="isoliner:kriging2d_1"/>
       <Option name="outputs" type="Map">
-        <Option name="Kriging raster" type="Map">
+        <Option name="Kriging-Raster" type="Map">
           <Option name="child_id" type="QString" value="isoliner:kriging2d_1"/>
           <Option name="color" type="QString" value=""/>
           <Option name="comment" type="Map">
@@ -37,14 +37,24 @@
             <Option name="outputs_collapsed" type="bool" value="true"/>
             <Option name="parameters_collapsed" type="bool" value="true"/>
           </Option>
-          <Option name="component_description" type="QString" value="Kriging raster"/>
+          <Option name="component_description" type="QString" value="Kriging-Raster"/>
           <Option name="component_height" type="double" value="30"/>
           <Option name="component_pos_x" type="double" value="126"/>
           <Option name="component_pos_y" type="double" value="403"/>
           <Option name="component_width" type="double" value="200"/>
-          <Option name="default_value" type="invalid"/>
-          <Option name="mandatory" type="bool" value="false"/>
-          <Option name="name" type="QString" value="Kriging raster"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="windows-1252"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value=""/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="Kriging-Raster"/>
           <Option name="output_name" type="QString" value="OUTPUT"/>
           <Option name="outputs_collapsed" type="bool" value="true"/>
           <Option name="parameters_collapsed" type="bool" value="true"/>
@@ -277,7 +287,7 @@
       <Option name="dependencies"/>
       <Option name="id" type="QString" value="isoliner:raster_to_isolines_1"/>
       <Option name="outputs" type="Map">
-        <Option name="Isolines" type="Map">
+        <Option name="Isolinien" type="Map">
           <Option name="child_id" type="QString" value="isoliner:raster_to_isolines_1"/>
           <Option name="color" type="QString" value=""/>
           <Option name="comment" type="Map">
@@ -290,14 +300,24 @@
             <Option name="outputs_collapsed" type="bool" value="true"/>
             <Option name="parameters_collapsed" type="bool" value="true"/>
           </Option>
-          <Option name="component_description" type="QString" value="Isolines"/>
+          <Option name="component_description" type="QString" value="Isolinien"/>
           <Option name="component_height" type="double" value="30"/>
           <Option name="component_pos_x" type="double" value="343"/>
           <Option name="component_pos_y" type="double" value="403"/>
           <Option name="component_width" type="double" value="200"/>
-          <Option name="default_value" type="invalid"/>
-          <Option name="mandatory" type="bool" value="false"/>
-          <Option name="name" type="QString" value="Isolines"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" type="QString" value="QgsProcessingOutputLayerDefinition"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" type="QString" value="windows-1252"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" type="bool" value="true"/>
+              <Option name="type" type="int" value="1"/>
+              <Option name="val" type="QString" value=""/>
+            </Option>
+          </Option>
+          <Option name="mandatory" type="bool" value="true"/>
+          <Option name="name" type="QString" value="Isolinien"/>
           <Option name="output_name" type="QString" value="OUTPUT"/>
           <Option name="outputs_collapsed" type="bool" value="true"/>
           <Option name="parameters_collapsed" type="bool" value="true"/>
@@ -381,7 +401,7 @@
         </Option>
         <Option name="INTERVAL" type="List">
           <Option type="Map">
-            <Option name="parameter_name" type="QString" value="isoline_distance"/>
+            <Option name="parameter_name" type="QString" value="abstand_der_isolinien"/>
             <Option name="source" type="int" value="0"/>
           </Option>
         </Option>
@@ -506,6 +526,19 @@
   <Option name="outputGroup" type="QString" value=""/>
   <Option name="outputOrder"/>
   <Option name="parameterDefinitions" type="Map">
+    <Option name="abstand_der_isolinien" type="Map">
+      <Option name="data_type" type="int" value="1"/>
+      <Option name="default" type="double" value="0.4"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" type="QString" value="Abstand der Isolinien"/>
+      <Option name="flags" type="int" value="0"/>
+      <Option name="help" type="QString" value=""/>
+      <Option name="max" type="double" value="1.7976931348623157e+308"/>
+      <Option name="metadata"/>
+      <Option name="min" type="double" value="0"/>
+      <Option name="name" type="QString" value="abstand_der_isolinien"/>
+      <Option name="parameter_type" type="QString" value="number"/>
+    </Option>
     <Option name="input" type="Map">
       <Option name="data_types" type="List">
         <Option type="int" value="1"/>
@@ -519,55 +552,85 @@
       <Option name="name" type="QString" value="input"/>
       <Option name="parameter_type" type="QString" value="vector"/>
     </Option>
-    <Option name="isoline_distance" type="Map">
-      <Option name="data_type" type="int" value="1"/>
-      <Option name="default" type="double" value="0.4"/>
-      <Option name="defaultGui" type="invalid"/>
-      <Option name="description" type="QString" value="Isoline distance"/>
-      <Option name="flags" type="int" value="0"/>
-      <Option name="help" type="QString" value=""/>
-      <Option name="max" type="double" value="1.7976931348623157e+308"/>
-      <Option name="metadata"/>
-      <Option name="min" type="double" value="0"/>
-      <Option name="name" type="QString" value="isoline_distance"/>
-      <Option name="parameter_type" type="QString" value="number"/>
-    </Option>
-    <Option name="isolines" type="Map">
+    <Option name="isolinien" type="Map">
       <Option name="create_by_default" type="bool" value="true"/>
       <Option name="data_type" type="int" value="1"/>
-      <Option name="default" type="invalid"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="windows-1252"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value=""/>
+          </Option>
+        </Option>
+      </Option>
       <Option name="defaultGui" type="invalid"/>
-      <Option name="description" type="QString" value="Isolines"/>
+      <Option name="description" type="QString" value="Isolinien"/>
       <Option name="flags" type="int" value="0"/>
       <Option name="help" type="QString" value=""/>
       <Option name="metadata" type="Map">
         <Option name="_modelChildId" type="QString" value="isoliner:raster_to_isolines_1"/>
-        <Option name="_modelChildOutputName" type="QString" value="Isolines"/>
+        <Option name="_modelChildOutputName" type="QString" value="Isolinien"/>
         <Option name="_modelChildProvider" type="QString" value="isoliner"/>
       </Option>
-      <Option name="name" type="QString" value="isolines"/>
+      <Option name="name" type="QString" value="isolinien"/>
       <Option name="parameter_type" type="QString" value="vectorDestination"/>
       <Option name="supports_non_file_outputs" type="bool" value="true"/>
     </Option>
-    <Option name="kriging_raster" type="Map">
+    <Option name="krigingraster" type="Map">
       <Option name="create_by_default" type="bool" value="true"/>
-      <Option name="default" type="invalid"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" type="QString" value="windows-1252"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" type="bool" value="true"/>
+            <Option name="type" type="int" value="1"/>
+            <Option name="val" type="QString" value=""/>
+          </Option>
+        </Option>
+      </Option>
       <Option name="defaultGui" type="invalid"/>
-      <Option name="description" type="QString" value="Kriging raster"/>
+      <Option name="description" type="QString" value="Kriging-Raster"/>
       <Option name="flags" type="int" value="0"/>
       <Option name="help" type="QString" value=""/>
       <Option name="metadata" type="Map">
         <Option name="_modelChildId" type="QString" value="isoliner:kriging2d_1"/>
-        <Option name="_modelChildOutputName" type="QString" value="Kriging raster"/>
+        <Option name="_modelChildOutputName" type="QString" value="Kriging-Raster"/>
         <Option name="_modelChildProvider" type="QString" value="isoliner"/>
       </Option>
-      <Option name="name" type="QString" value="kriging_raster"/>
+      <Option name="name" type="QString" value="krigingraster"/>
       <Option name="parameter_type" type="QString" value="rasterDestination"/>
       <Option name="supports_non_file_outputs" type="bool" value="true"/>
     </Option>
   </Option>
   <Option name="parameterOrder"/>
   <Option name="parameters" type="Map">
+    <Option name="abstand_der_isolinien" type="Map">
+      <Option name="color" type="QString" value=""/>
+      <Option name="comment" type="Map">
+        <Option name="color" type="QString" value=""/>
+        <Option name="component_description" type="QString" value=""/>
+        <Option name="component_height" type="double" value="60"/>
+        <Option name="component_pos_x" type="double" value="540"/>
+        <Option name="component_pos_y" type="double" value="15"/>
+        <Option name="component_width" type="double" value="100"/>
+        <Option name="outputs_collapsed" type="bool" value="true"/>
+        <Option name="parameters_collapsed" type="bool" value="true"/>
+      </Option>
+      <Option name="component_description" type="QString" value="abstand_der_isolinien"/>
+      <Option name="component_height" type="double" value="30"/>
+      <Option name="component_pos_x" type="double" value="340"/>
+      <Option name="component_pos_y" type="double" value="60"/>
+      <Option name="component_width" type="double" value="200"/>
+      <Option name="name" type="QString" value="abstand_der_isolinien"/>
+      <Option name="outputs_collapsed" type="bool" value="true"/>
+      <Option name="parameters_collapsed" type="bool" value="true"/>
+    </Option>
     <Option name="input" type="Map">
       <Option name="color" type="QString" value=""/>
       <Option name="comment" type="Map">
@@ -586,27 +649,6 @@
       <Option name="component_pos_y" type="double" value="60"/>
       <Option name="component_width" type="double" value="200"/>
       <Option name="name" type="QString" value="input"/>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
-    </Option>
-    <Option name="isoline_distance" type="Map">
-      <Option name="color" type="QString" value=""/>
-      <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value=""/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="540"/>
-        <Option name="component_pos_y" type="double" value="15"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
-      </Option>
-      <Option name="component_description" type="QString" value="isoline_distance"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="340"/>
-      <Option name="component_pos_y" type="double" value="60"/>
-      <Option name="component_width" type="double" value="200"/>
-      <Option name="name" type="QString" value="isoline_distance"/>
       <Option name="outputs_collapsed" type="bool" value="true"/>
       <Option name="parameters_collapsed" type="bool" value="true"/>
     </Option>

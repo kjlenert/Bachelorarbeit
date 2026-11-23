@@ -29,7 +29,7 @@
       <Option name="params" type="Map">
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="parameter_name" type="QString" value="polygon_input"/>
+            <Option name="parameter_name" type="QString" value="polygonlayer"/>
             <Option name="source" type="int" value="0"/>
           </Option>
         </Option>
@@ -147,7 +147,7 @@
       <Option name="params" type="Map">
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="parameter_name" type="QString" value="line_input_layer"/>
+            <Option name="parameter_name" type="QString" value="linienlayer"/>
             <Option name="source" type="int" value="0"/>
           </Option>
         </Option>
@@ -161,7 +161,7 @@
     </Option>
   </Option>
   <Option name="designerParameterValues" type="Map">
-    <Option name="line_input_layer" type="QString" value="p9_mix_men_part1_png_bd50be6c_14fa_4942_a337_ff8817193654"/>
+    <Option name="line_input" type="QString" value="14_Route1_jpg_7f018d30_dcf9_45c7_839d_808b6d8970e2"/>
     <Option name="merged_result" type="QgsProcessingOutputLayerDefinition">
       <Option type="Map">
         <Option name="create_options" type="Map">
@@ -170,11 +170,11 @@
         <Option name="sink" type="Map">
           <Option name="active" type="bool" value="true"/>
           <Option name="type" type="int" value="1"/>
-          <Option name="val" type="QString" value="C:/Users/Admin/Documents/Uni/Bachelorarbeit/Code/qgis_zeug/AreaMensaAasee/ma9-1_merged.gpkg"/>
+          <Option name="val" type="QString" value="C:/Users/Admin/Documents/Uni/Bachelorarbeit/Code/qgis_zeug/AreaMensaAasee/hd14_merged.gpkg"/>
         </Option>
       </Option>
     </Option>
-    <Option name="polygon_input" type="QString" value="p9_mix_men_part1_png_bc9ed113_ca04_4d33_963a_8a02895c83d4"/>
+    <Option name="polygon_input" type="QString" value="14_Route1_jpg_a7706384_27ea_462f_ad9f_4ac4adbf4b66"/>
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help"/>
@@ -185,17 +185,17 @@
   <Option name="outputGroup" type="QString" value=""/>
   <Option name="outputOrder"/>
   <Option name="parameterDefinitions" type="Map">
-    <Option name="line_input_layer" type="Map">
+    <Option name="linienlayer" type="Map">
       <Option name="data_types" type="List">
         <Option type="int" value="1"/>
       </Option>
       <Option name="default" type="invalid"/>
       <Option name="defaultGui" type="invalid"/>
-      <Option name="description" type="QString" value="Line_input_layer"/>
+      <Option name="description" type="QString" value="Linien-Layer"/>
       <Option name="flags" type="int" value="0"/>
       <Option name="help" type="QString" value=""/>
       <Option name="metadata"/>
-      <Option name="name" type="QString" value="line_input_layer"/>
+      <Option name="name" type="QString" value="linienlayer"/>
       <Option name="parameter_type" type="QString" value="layer"/>
     </Option>
     <Option name="merged_result" type="Map">
@@ -216,23 +216,23 @@
       <Option name="supports_append" type="bool" value="false"/>
       <Option name="supports_non_file_outputs" type="bool" value="true"/>
     </Option>
-    <Option name="polygon_input" type="Map">
+    <Option name="polygonlayer" type="Map">
       <Option name="data_types" type="List">
         <Option type="int" value="2"/>
       </Option>
       <Option name="default" type="invalid"/>
       <Option name="defaultGui" type="invalid"/>
-      <Option name="description" type="QString" value="Polygon_input"/>
+      <Option name="description" type="QString" value="Polygon-Layer"/>
       <Option name="flags" type="int" value="0"/>
       <Option name="help" type="QString" value=""/>
       <Option name="metadata"/>
-      <Option name="name" type="QString" value="polygon_input"/>
+      <Option name="name" type="QString" value="polygonlayer"/>
       <Option name="parameter_type" type="QString" value="layer"/>
     </Option>
   </Option>
   <Option name="parameterOrder"/>
   <Option name="parameters" type="Map">
-    <Option name="line_input_layer" type="Map">
+    <Option name="linienlayer" type="Map">
       <Option name="color" type="QString" value=""/>
       <Option name="comment" type="Map">
         <Option name="color" type="QString" value=""/>
@@ -244,16 +244,16 @@
         <Option name="outputs_collapsed" type="bool" value="true"/>
         <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option name="component_description" type="QString" value="line_input_layer"/>
+      <Option name="component_description" type="QString" value="linienlayer"/>
       <Option name="component_height" type="double" value="30"/>
       <Option name="component_pos_x" type="double" value="340"/>
       <Option name="component_pos_y" type="double" value="60"/>
       <Option name="component_width" type="double" value="200"/>
-      <Option name="name" type="QString" value="line_input_layer"/>
+      <Option name="name" type="QString" value="linienlayer"/>
       <Option name="outputs_collapsed" type="bool" value="true"/>
       <Option name="parameters_collapsed" type="bool" value="true"/>
     </Option>
-    <Option name="polygon_input" type="Map">
+    <Option name="polygonlayer" type="Map">
       <Option name="color" type="QString" value=""/>
       <Option name="comment" type="Map">
         <Option name="color" type="QString" value=""/>
@@ -265,12 +265,12 @@
         <Option name="outputs_collapsed" type="bool" value="true"/>
         <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
-      <Option name="component_description" type="QString" value="polygon_input"/>
+      <Option name="component_description" type="QString" value="polygonlayer"/>
       <Option name="component_height" type="double" value="30"/>
       <Option name="component_pos_x" type="double" value="120"/>
       <Option name="component_pos_y" type="double" value="60"/>
       <Option name="component_width" type="double" value="200"/>
-      <Option name="name" type="QString" value="polygon_input"/>
+      <Option name="name" type="QString" value="polygonlayer"/>
       <Option name="outputs_collapsed" type="bool" value="true"/>
       <Option name="parameters_collapsed" type="bool" value="true"/>
     </Option>
